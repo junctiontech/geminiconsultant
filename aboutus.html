@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Gemini Consultant</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Arial.font.js"></script>
+<script type="text/javascript">Cufon.replace('h1,h2,h3,h4,h5,#menu,.blog-date');</script>
+<script type="text/javascript" src="js/fancyzoom.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function () {
+    $('div.photo a').fancyZoom({
+        directory: 'images/zoom',
+        scaleImg: true,
+        closeOnClick: true
+    });
+});
+</script>
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div id="bg">
+  <div class="wrap">
+     <a href="index.html"><img  src="images/logo.png"; width="130" height="80" alt="logo" style="padding-top:10px; padding-left:20px;" /></a>
+    <div id="mainmenu">
+      <ul id="menu">
+        <li><a href="home.html">Home</a>
+        </li>
+        <li><a href="aboutus.html">About Us</a>
+          
+       <!-- </li>
+        <li><a href="projects.html">Projects</a>
+         
+        </li> -->
+        <li><a href="services.html">Services</a>
+        
+        </li>
+        <!--<li><a href="career.html">Career</a>
+      
+        </li> -->
+        <li><a href="contact.html">Contact Us</a>
+        
+        </li>
+      </ul>
+    </div>
+    <div id="pitch">
+      <div id="slideshow">
+        <div class="active"> <img src="images/pitch/pitch1.jpg" alt="" />
+          <div class="overlay transparent">
+           </div>
+          <p class="arrow"><a href="#"></a></p>
+        </div>
+        <div> <img src="images/pitch/pitch2.jpg" alt="" />
+          <div class="overlay transparent">
+          </div>
+          <p class="arrow"><a href="#"></a></p>
+        </div>
+        <div> <img src="images/pitch/pitch3.jpg" alt="" />
+          <div class="overlay transparent">
+          </div>
+          <p class="arrow"><a href="#"></a></p>
+        </div>
+        <div class="active"> <img src="images/pitch/pitch4.jpg" alt="" />
+          <div class="overlay transparent">
+          </div>
+          <p class="arrow"><a href="#"></a></p>
+        </div>
+        <div class="active"> <img src="images/pitch/pitch5.jpg" alt="" />
+          <div class="overlay transparent">
+          </div>
+          <p class="arrow"><a href="#"></a></p>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+    
+      <div id="">
+       
+       <h2>About Us</h2>
+       <p>&nbsp;</p>
+        <p>It can be very stressful exercise when one has to look for a good accountant. Besides building a professional relationship one has to build trust and faith for someone who will be managing the assets and savings of your life. </p>
+<p>This long journey can be more exciting and interesting if the professionals of this industry as
+  Audit & Tax Accountants can assist in helping with services as Audit, Tax, Self Managed Super Fund (SMSF) and business services for people of every age from young apprentice to Small Business Owners, professionals from different industry.</p>
+
+
+        <p> Audit & Tax accountants will offer more than just a range of standard accounting solutions. We offer tailored and business specific solutions to suit your needs both now and as your business expand. The client's satisfaction is our objective and mission.</p>
+        
+        
+        <p> Our vision is to serve wide spectrum of individuals from various professions and business owners in current economic situation. We strongly believe in establishing equal partnership with our clients. From our initial meeting we will endeavour to make the partnership with you a reality. </p>
+        
+        
+        <p> We have the ability to provide practical solutions to transform your dreams into goals.</p>
+      <img src="images/speak-someone-uk.jpg" width="600" height="236" alt="goal" /></div>
+      
+      
+    </div>
+    <div id="side">
+      <h4>Latest News</h4>
+      <div class="news">
+        <marquee direction="up">
+        <h5><a href="#">News title</a></h5>
+        <p>.........................................................
+          ..........................................................</p>
+      </div>
+      <div class="news">
+        <h5><a href="#">News title</a></h5>
+        <p>.........................................................
+          ..........................................................</p>
+      </div>
+      <div class="news">
+        <h5><a href="#">News title</a></h5>
+        <p>.........................................................
+          ..........................................................</p>
+      </div>
+      <div class="news">
+        <h5><a href="#">News title</a></h5>
+        <p>.........................................................
+          ..........................................................</p>
+        </marquee>
+      </div>  
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footerbg">
+      <div class="wrap">
+        <p id="copy">Copyright &copy; 2014 <a href="#">Domain Name</a> - All Rights Reserved</p>
+        <p id="footer_menu"><a href="http://www.facebook.com/">Design</a> by <a href="http://www.facebook.com">Gemini</a></p>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END PAGE SOURCE -->
+<div id="top_button"><img src="images/top.png"/></div>
+<script>
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 150) {
+            $('#top_button').fadeIn();
+        } else {
+            $('#top_button').fadeOut();
+        }
+    });
+
+    $('#top_button').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
+</body>
+</html>
